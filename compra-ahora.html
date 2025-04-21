@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmar Compra</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/29 sin título_20250326130428.png" alt="logo">
+                </a>
+                <nav class="naveg">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="confirmacion-compra">
+        <div class="contenedor">
+            <h2>Gracias por tu compra</h2>
+            <p>Tu pedido ha sido recibido. Un representante se pondrá en contacto contigo para finalizar los detalles de tu compra.</p>
+            <p>Revisa los detalles de tu compra:</p>
+            
+            <!-- Detalles del producto comprado -->
+            <div class="detalles-compra">
+                <img src="img/cr7.jpg" alt="Epic X CR7">
+                <div class="informacion-compra">
+                    <h3>Epic X CR7</h3>
+                    <span class="precio">$160,000</span>
+                    <p>Edición especial en colaboración con Cristiano Ronaldo, disponible en titanio u oro negro.</p>
+                    <p>Cantidad: 1</p>
+                </div>
+            </div>
+
+            <!-- Formulario de comentarios -->
+            <div class="comentarios">
+                <h3>Deja tu comentario</h3>
+                <form action="enviar-comentario.html" method="POST">
+                    <label for="comentario">Tu comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí..."></textarea>
+                    <button type="submit" class="boton">Enviar Comentario</button>
+                </form>
+            </div>
+
+            <!-- Comentarios ya existentes -->
+            <div class="comentarios-existentes">
+                <h3>Comentarios de Clientes</h3>
+                <div class="comentario">
+                    <p><strong>Juan Pérez:</strong> "Excelente reloj, el diseño es espectacular y de buena calidad. ¡Muy recomendado!"</p>
+                </div>
+                <div class="comentario">
+                    <p><strong>Ana Gómez:</strong> "Una edición muy exclusiva, el precio es elevado pero vale la pena por la calidad."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footerSite section">
+        <div class="contenedor-footer contenedor">
+            <div class="redes-sociales">
+                <a href="https://wa.me/573005361835" class="btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://instagram.com/l_manuela_2007" class="btn-instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://facebook.com/profile.php?id=100081190159163" class="btn-facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <p class="copyright">Todos los derechos reservados 2025 &copy;</p>
+            <p>
+                <a href="https://centrodeserviciosygestionempresarial.blogspot.com/p/nosotros.html#" 
+                   target="_blank" 
+                   style="text-decoration: none; color: #000000;">
+                  Visita el SENA
+                </a>
+              </p>
+        </div>
+    </footer>
+</body>
+
+</html>
